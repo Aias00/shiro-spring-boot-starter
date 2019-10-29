@@ -105,3 +105,11 @@ shiro-spring-boot-autoconfigure/src/main/java/com/aias/springboot/shiro/dao/
 shiro-spring-boot-autoconfigure/src/main/java/com/aias/springboot/shiro/entity/
 shiro-spring-boot-autoconfigure/src/main/java/com/aias/springboot/shiro/service/
 /shiro-spring-boot.iml
+.idea/.name
+.idea/compiler.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+shiro-spring-boot-autoconfigure/shiro-spring-boot-autoconfigure.iml
+shiro-spring-boot-starter/shiro-spring-boot-starter.iml
