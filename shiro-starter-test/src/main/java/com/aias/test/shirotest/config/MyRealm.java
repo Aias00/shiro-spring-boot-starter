@@ -27,7 +27,7 @@ import com.aias.test.shirotest.service.UserService;
  *
  * @author <a> liuhy </a><br>
  */
-//@Component
+@Component
 public class MyRealm extends AuthorizingRealm {
 
 	@Autowired

@@ -101,9 +101,6 @@ hs_err_pid*
 .idea/checkstyle-idea.xml
 .idea/eclipseCodeFormatter.xml
 .idea/encodings.xml
-shiro-spring-boot-autoconfigure/src/main/java/com/aias/springboot/shiro/dao/
-shiro-spring-boot-autoconfigure/src/main/java/com/aias/springboot/shiro/entity/
-shiro-spring-boot-autoconfigure/src/main/java/com/aias/springboot/shiro/service/
 /shiro-spring-boot.iml
 .idea/.name
 .idea/compiler.xml

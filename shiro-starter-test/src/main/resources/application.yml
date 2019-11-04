@@ -21,7 +21,21 @@ spring:
     testOnReturn: false
 shiro:
   authc:
-    credential:
-      hash-algorithm: SHA-256
-      hash-iterations: 1024
-      stored-credentials-hex-encoded: false
+    hash-algorithm: SHA-256
+    hash-iterations: 1024
+    stored-credentials-hex-encoded: false
+  filter:
+    login-url: /login
+    success-url: /
+    unauthorized-url: /403
+    filter-chain-map:
+      /user/login : anon
+      /logout : anon
+      /resources/** : anon
+      /password/** : anon
+      /password.html : anon
+      /captcha.jpg : anon
+      /favicon.ico : anon
+      /favi.ico : anon
+      /login/sendCode : anon
+      /login/valid.json : anon
