@@ -19,12 +19,26 @@
 ```yml
 shiro:
   authc:
-    credential:
-      hash-algorithm: SHA-256
-      hash-iterations: 1024
-      stored-credentials-hex-encoded: false
+    hash-algorithm: SHA-256
+    hash-iterations: 1024
+    stored-credentials-hex-encoded: false
+  filter:
+    login-url: /login
+    success-url: /
+    unauthorized-url: /403
+    filter-chain-map:
+      /user/login : anon
+      /logout : anon
+      /resources/** : anon
+      /password/** : anon
+      /password.html : anon
+      /captcha.jpg : anon
+      /favicon.ico : anon
+      /favi.ico : anon
+      /login/sendCode : anon
+      /login/valid.json : anon
 
 ```
 
- 4.需要调用shiro的工程中自定义MyRealm继承自AuthorizingRealm
+ 4.需要调用shiro的工程中自定义MyRealm继承自AuthorizingRealm,自定义资源管理服务ResourceService实现com.aias.springboot.shiro.service.IResourceService
 
