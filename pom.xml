@@ -20,7 +20,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <java.version>1.8</java.version>
-        <spring-boot.version>2.5.12</spring-boot.version>
+        <spring-boot.version>2.5.15</spring-boot.version>
         <lombok.version>1.18.8</lombok.version>
         <guava.version>29.0-jre</guava.version>
         <commons-codec.version>1.11</commons-codec.version>
